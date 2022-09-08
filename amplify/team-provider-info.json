@@ -1,0 +1,15 @@
+{
+  "staging": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-sdfootball-staging-212022-authRole",
+      "UnauthRoleArn": "arn:aws:iam::261593989146:role/amplify-sdfootball-staging-212022-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::261593989146:role/amplify-sdfootball-staging-212022-authRole",
+      "Region": "us-west-2",
+      "DeploymentBucketName": "amplify-sdfootball-staging-212022-deployment",
+      "UnauthRoleName": "amplify-sdfootball-staging-212022-unauthRole",
+      "StackName": "amplify-sdfootball-staging-212022",
+      "StackId": "arn:aws:cloudformation:us-west-2:261593989146:stack/amplify-sdfootball-staging-212022/e2396910-2ef2-11ed-aa91-0ae8e4d9f703",
+      "AmplifyAppId": "dkcgftaz9jnfb"
+    }
+  }
+}

@@ -1,0 +1,20 @@
+type HighSchool @model @auth(rules: [{allow: public}]) {
+  id: ID!
+  HighSchool: String
+  Address: String
+  HeadCoach: String
+}
+
+type Player @model @auth(rules: [{allow: public}]) {
+  id: ID!
+  fullname: String!
+  LastName: String
+  Position: String
+  Grade: Int
+  School: String
+  Hudl: String
+  HighSchool: HighSchool @hasOne
+  image: AWSURL
+  FirstName: String
+}
+ 
